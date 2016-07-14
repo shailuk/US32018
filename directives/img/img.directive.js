@@ -48,6 +48,8 @@ app.directive("imageReplace", function () {
 
             big_image_element = element[0].childNodes[0].childNodes[1].childNodes[1].childNodes[3]; 
 
+            console.log(big_image_element);
+
             big_image_element.attributes[0].value = image_Source;
 
             //  big_image_element.attributes[2].value = zoom_height;
